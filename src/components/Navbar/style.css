@@ -1,0 +1,49 @@
+.underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: rgb(255, 255, 233);
+  transition: width 0.29s ease-out;
+}
+.underline-hover-effect:hover::before {
+  width: 70%;
+}
+
+
+
+
+  
+
+
+.no-style {
+  text-decoration: none;
+  color: white;
+}
+
+.no-style:hover {
+  color: white;
+}
+
+#navbar-icon {
+  color:rgb(255, 255, 233);
+}
+
+.logo {
+  padding-left: 10em;
+}
+
+.no-style-white {
+  color: white;
+  width: 100%;
+}
