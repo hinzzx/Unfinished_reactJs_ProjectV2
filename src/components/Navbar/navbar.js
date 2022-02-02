@@ -29,7 +29,7 @@ export default function Navbar() {
             width="45"
             alt=""
             loading="lazy"
-            className="no-style-white"
+            className="img-fluid"
           />
         </MDBNavbarBrand>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
           onClick={() => setShowBasic(!showBasic)}
-          className="mr-auto mb-2 mb-lg-0"
+          className="mr-auto mb-2 mb-lg-0 logo"
         >
           <MDBIcon icon="bars" fas id="navbar-icon" />
         </MDBNavbarToggler>
