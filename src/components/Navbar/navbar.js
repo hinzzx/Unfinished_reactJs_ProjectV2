@@ -25,7 +25,8 @@ export default function Navbar() {
         <MDBNavbarBrand href="#" className="logo">
           <img
             src="https://i.imgur.com/qZoY4ve.png"
-            height="45"
+            height="30"
+            width="30"
             alt=""
             loading="lazy"
             className="no-style-white"
