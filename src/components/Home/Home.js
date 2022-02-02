@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="section-hero-inner">
       <div className="centered">
-        <Fade top>
+        <Fade bottom>
           <h1 className = "fs-1">Brandino</h1>
           <Fade left>
             <h2 className= "fs-4">
