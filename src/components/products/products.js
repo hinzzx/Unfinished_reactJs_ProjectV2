@@ -1,52 +1,28 @@
-import React from 'react';
-import { MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBContainer, MDBRipple, MDBBtn, MDBCarousel,
-    MDBCarouselInner,
-    MDBCarouselItem,
-    MDBCarouselElement,
-    MDBCarouselCaption} from 'mdb-react-ui-kit';
+import React from "react";
 import Fade from "react-reveal/Fade";
+import './style.css';
 
 const Products = () => {
   return (
-    <></>
-  //     <Fade bottom>
-  //   <div className="section-hero-inner">
-  //   <div className="centered">
-  //   <MDBContainer>
-  //     <MDBRow className="border-radzz">
-  //       <MDBCol size='md' className='col-example'>
-  //       <MDBCarousel showControls showIndicators>
-  //     <MDBCarouselInner>
-  //       <MDBCarouselItem className='active'>
-  //         <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/041.webp' alt='...' />
-  //         <MDBCarouselCaption>
-  //           <h5>First slide label</h5>
-  //           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-  //         </MDBCarouselCaption>
-  //       </MDBCarouselItem>
-  //       <MDBCarouselItem>
-  //         <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/042.webp' alt='...' />
-  //         <MDBCarouselCaption>
-  //           <h5>Second slide label</h5>
-  //           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  //         </MDBCarouselCaption>
-  //       </MDBCarouselItem>
-  //       <MDBCarouselItem>
-  //         <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/043.webp' alt='...' />
-  //         <MDBCarouselCaption>
-  //           <h5>Third slide label</h5>
-  //           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-  //         </MDBCarouselCaption>
-  //       </MDBCarouselItem>
-  //     </MDBCarouselInner>
-  //   </MDBCarousel>
-  //       </MDBCol>
-  //     </MDBRow>
-  //   </MDBContainer>
-  //   </div>
-  // </div>
-  // </Fade>
- );
- }
+    <Fade bottom>
+      <div className="wrapper">
+      <div className="product-img">
+      <img src="https://i.pinimg.com/474x/cc/73/9e/cc739e01e297b11ed9e4ba5d8c9fc9bb.jpg" height="420" width="327" />
+    </div>
+    <div className="product-info">
+      <div className="product-text">
+        <h1>Harvest Vase</h1>
+        <h2>by studio and friends</h2>
+        <p>Harvest Vases are a reinterpretation<br /> of peeled fruits and vegetables as<br/> functional objects. The surfaces<br/> appear to be sliced and pulled aside,<br/> allowing room for growth. </p>
+      </div>
+      <div className="product-price-btn">
+        <p><span>78</span>$</p>
+        <button type="button">buy now</button>
+      </div>
+    </div>
+      </div>
+    </Fade>
+  );
+};
 
 export default Products;

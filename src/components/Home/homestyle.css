@@ -2,6 +2,7 @@
 *::before,
 *::after {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,11 +21,6 @@
   text-align: center;
 }
 
-body {
-  background-image: url("https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  object-fit: fill;
-  background-repeat: no-repeat;
-}
 
 h1,
 h2 {
