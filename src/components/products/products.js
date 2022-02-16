@@ -9,8 +9,6 @@ const Products = () => {
         <div className="product-img">
           <img
             src="https://i.pinimg.com/474x/cc/73/9e/cc739e01e297b11ed9e4ba5d8c9fc9bb.jpg"
-            height="420"
-            width="327"
           />
         </div>
         <div className="product-info">
@@ -29,7 +27,7 @@ const Products = () => {
           </div>
           <div className="product-price-btn">
             <p>
-              <span>78</span>$
+              <span>78$</span>
             </p>
             <button type="button">buy now</button>
           </div>
